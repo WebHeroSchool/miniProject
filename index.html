@@ -15,37 +15,37 @@
         <!-- header site -->
         <header class="header">
 
-            <div class="header__burger">
-                <span class="burger__line"></span>
-                <span class="burger__line"></span>
-                <span class="burger__line"></span>
-            </div>
-
             <div class="header_logo-icon"> 
-                <span class="logo-icon__item-blue"></span>
-                <span class="logo-icon__item-white"></span>
+                
+                <span class="logo-icon__item logo-icon__item-blue"></span>
+                <span class="logo-icon__item logo-icon__item-white"></span>
+                <div class="header__logo">app.creation</div>
             </div>
 
-            <div class="header__logo">app.creation</div>
-            
-            <div class="header__menu">
-                <ul class="menu__link-list">
-                    <li class="menu__link"> <a class="menu__link-item" href="#">start</a>
-                    <li class="menu__link menu__link_active"> <a class="menu__links-item" href="#">services</a>
-                    <li class="menu__link"> <a class="menu__link-item" href="#">about</a> 
-                    <li class="menu__link"> <a class="menu__link-item" href="#">blog</a>
-                    <li class="menu__link"> <a class="menu__link-item" href="#">contact us</a>
-                </ul>
+            <div id="header__burger" class="header__burger header__burger_active">
+
+                <input id="header__toggle" type="checkbox" />
+                <label class="header__btn" for="header__toggle">
+                <span class="burger__line"></span>
             </div>
+
+            <div  id="header__menu" class="header__menu menu">
+
+                <a href="#" class="menu__item">start</a>
+                <a href="#" class="menu__item menu__item_active ">services</a>
+                <a href="#" class="menu__item">about</a>
+                <a href="#" class="menu__item">blog</a>
+                <a href="#" class="menu__item">contact us</a>
+            </div>
+
          </header>  <!-- /.header site -->
-    
     
         <!-- content site -->
         <main class="content">
 
             <div class="content__wrap">
                 <h1 class="content__title">
-                    Building an App <span class="content__title_gray">Without Design Expertise?</span>
+                    Building an App <span class="content__title_gray">Without Design Expertise</span>?
                 </h1>
                 <p class="content__desc">I help tech startups design better digital 
                                         products without hiring a full-time designer</p>
@@ -58,6 +58,16 @@
             <div class="content__img"></div>
         </main> <!-- /.content -->
 
+         <!-- footer site -->
+        <footer class="footer">
+            <div class="footer__scroll">
+                <span class="scroll-item"></span>
+                <span class="scroll-item"></span>
+                <span class="scroll-item"></span>
+            </div>
+        </footer> <!-- /.footer -->
+
     </div><!-- /.wrap-site -->
+
 </body>
 </html>
