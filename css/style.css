@@ -1,27 +1,26 @@
 
-html{
-
+html {
     box-sizing: border-box;
 }
 
-*, *::before, *::after{
-
+*,
+*::before,
+*::after {
     box-sizing: inherit;
 }
 
-body { 
-
+body {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     box-sizing: border-box;
 }
 
-
 .header__logo{
-
     font-family: 'PT Serif', serif;
     font-weight: bold;
     font-size: 28px;
     line-height: 32px;
-    padding: 0px 0px 0px 12px;
+    padding: 0 0 0 12px;
 }
+
+
