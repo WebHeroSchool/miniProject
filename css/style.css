@@ -255,7 +255,7 @@ body {
     max-width: 209px;
     height: 44px;
   }
-  
+
   .content__bt__link {
     font-size: 14px;
     line-height: 16px;
@@ -324,7 +324,7 @@ body {
   #header__toggle:checked ~ .header__btn > span::before {
     top: 0;
     transform: rotate(0);
-  } 
+  }
 
   #header__toggle:checked ~ .header__btn > span::after {
     top: 0;
@@ -348,9 +348,9 @@ body {
     cursor: pointer;
   }
 
-  .header__btn > span,
-  .header__btn > span::before,
-  .header__btn > span::after {
+  .header__btn > .burger__line,
+  .header__btn > .burger__line::before,
+  .header__btn > .burger__line::after {
     display: block;
     position: absolute;
     width: 100%;
@@ -359,17 +359,17 @@ body {
     transition-duration: 0.25s;
   }
 
-  .header__btn > span::before {
+  .header__btn > .burger__line::before {
     content: '';
     top: -9px;
   }
 
-  .header__btn > span::after {
+  .header__btn > .burger__line::after {
     content: '';
     top: 9px;
   }
 
-  .header__menu {
+  #header__menu {
     display: block;
     position: fixed;
     visibility: hidden;
@@ -436,7 +436,6 @@ body {
 }
 
 @media (max-width: 548px) {
-
   .wrap__site {
     max-width: 548px;
   }
