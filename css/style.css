@@ -155,7 +155,7 @@ body {
 .content__bt {
   max-width: 270px;
   height: 57px;
-  background-color: #0056EC;
+  background-color: #0056ec;
   border-radius: 4px;
   display: flex;
   align-items: center;
@@ -290,7 +290,7 @@ body {
   .menu__item {
     padding: 5px 25px 0 0;
   }
-  
+
   .footer {
     width: 1156px;
   }
@@ -428,7 +428,7 @@ body {
     line-height: 21px;
     text-align: center;
     margin-bottom: 40px;
-  } 
+  }
 
   .content__bt {
     margin: 0 auto;
